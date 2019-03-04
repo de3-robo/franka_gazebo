@@ -36,5 +36,6 @@ if __name__ == '__main__':
         delta_angle = math.pi / 16 * (math.cos(math.pi / 5 * elapsed.to_sec()))
 
         for i in range(7):
+            continue #don't publish pls
             publishers[i].publish(initial[i] + delta_angle)
         rate.sleep()

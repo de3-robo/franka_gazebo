@@ -5,7 +5,7 @@
       <robotNamespace>/</robotNamespace>
     </plugin>
   </gazebo>
-  
+
 	<gazebo reference="${arm_id}_link0"/>
 	<gazebo reference="${arm_id}_link1"/>
 	<gazebo reference="${arm_id}_link2"/>

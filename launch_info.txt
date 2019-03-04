@@ -1,0 +1,3 @@
+roslaunch gazebo_ros empty_world.launch
+roslaunch panda_moveit_config demo.launch
+roslaunch move_one_brick panda_one_brick.launch
